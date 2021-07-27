@@ -1,0 +1,10 @@
+[CT04] - Marcar os Objetivos que melhor lhe representa 
+
+Pré-requisitos: Ter executado o CT-03 e seu(s) pré-requisito(s).
+
+Dado que fui direcionado para a página https://solides.jobs/curriculum
+Quando acesso a guia de Questionário comportamental
+E seleciono 6 (seis) ou mais comportamentos
+E clico em Salvar e ir para próxima
+E seleciono 6 (seis) ou mais comportamentos que os outros pensam
+Então clico no botão Salvar dados e finalizo o cadastro. 

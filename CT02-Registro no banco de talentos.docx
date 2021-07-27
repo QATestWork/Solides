@@ -1,0 +1,12 @@
+CT02 =  Registro no banco de talentos: 
+Pré-requisito(s): Executado CT01
+
+Dado que fui direcionado para a página https://login.solides.jobs/
+Quando clico em "Registre-se"
+Então devo preencher todos os campos:
+ Email
+ CPF 
+ Senha
+ Repetir Senha. 
+ Aceitar os termos de uso e política de privacidade
+E Clicar no botão "Cadastrar"

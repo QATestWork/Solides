@@ -1,0 +1,5 @@
+CT01 =  Cadastro banco de talentos: 
+
+Dado que acesso a página principal https://nayaracorporation.solides.jobs/
+Quando clico em "Cadastre em nosso banco de talentos"
+Então devo ser direcionado para página de registro;

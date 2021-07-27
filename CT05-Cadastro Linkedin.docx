@@ -1,0 +1,12 @@
+[CT05] - Cadastro - se em nosso banco de talentos com Linkedin
+
+Pré-requisito: Possuir cadastro prévio no Linkedin
+
+Dado que acesso o site https://nayaracorporation.solides.jobs/
+Quando clico no botão Cadastre-se em nosso banco de talentos
+E clico em Logar com o Linkedin 
+Então o sistema vai apresentar a tela do Linkedin para realizar Login
+E preencho o Email/Telefone
+E preencho a senha
+E clico em Entrar
+Então o sistema loga com sucesso.

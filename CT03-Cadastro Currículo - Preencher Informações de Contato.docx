@@ -1,0 +1,177 @@
+[CT03] - Cadastro Currículo - Preencher Informações de Contato
+
+Pré-requisitos: Ter executado o CT-02 e seu(s) pré-requisito(s).
+
+Dado que fui direcionado para a página https://solides.jobs/curriculum
+Quando preencho todos os campos de informações de contato e os campos obrigatórios de Informações pessoais
+Então clico no botão Salvar dados sou direcionado para a próxima etapa. 
+
+Dado que os campos obrigatórios de Informações pessoais são:
+ 
+ Nome completo
+ Gênero 
+ Nascimento
+
+ Quando não os preencho.
+ Então devo ser informado que as informações sao obrigatórias. 
+
+Sendo candidato a uma possível oportunidade
+Quero realizar a minha Candidatura completa no banco de talentos
+Para que eu possa vir a ter uma maior chance de participar de uma seleção de novos talentos. 
+
+Pré-requisitos: Ter executado o CT-03 e seu(s) pré-requisito(s).
+
+Dado que fui direcionado para a página https://solides.jobs/curriculum
+Quando preencho todos os campos obrigatórios
+Então executo os cenários abaixo:
+
+[CT03.1] Cadastro -- Informações de contato --  
+
+Pré-requisitos: Ter executado o CT-03 e seu(s) pré-requisito(s).
+
+Dado que fui direcionado para a página https://solides.jobs/curriculum
+Quando preencho todos os campos de informações de contato e os campos Telefone ou celular
+E seleciono Sim no radio button para o número de telefone informado ser igual WhatsApp 
+ou seleciono Não no radio button para o número de telefone informado não ser igual WhatsApp logo após
+ preencho o numero do WhatsApp no campo "whatsapp" (apresentado somente quando telefone ou celular informado não for whatsapp).
+E preencho: 
+ Email
+ Confirmação do Email
+ Então clico no botão Salvar dados para ir para próxima etapa
+
+[CT03.2] Cadastro -- Informações pessoais -- 
+
+Pré-requisitos: Ter executado o CT-03 e seu(s) pré-requisito(s).
+
+Dado que fui direcionado para a página https://solides.jobs/curriculum
+Quando preencho todos os campos de informações de contato e os campos:
+
+ Nome completo
+ Seleciono a imagem 
+ Nacionalidade
+ Naturalidade
+E seleciono Gênero 
+ Nascimento
+ Status civil e a Senioridade
+E preencho a Pretensão salarial
+E preencho sobre você
+E preencho com o link do vídeo de apresentação (Youtube ou VIMEO
+E seleciono se Possuo uma necessidade especial - PNE caso positivo 
+  preencho o tipo de necessidade especial
+E seleciono se Possuo uma deficiência - PCD caso positivo
+  preencho o tipo de deficiência
+
+Então clico no botão Salvar dados para ir para próxima etapa
+
+
+[CT03.3] Cadastro -- Mídias Socias --
+
+Pré-requisitos: Ter executado o CT-03 e seu(s) pré-requisito(s).
+
+Dado que fui direcionado para a página https://solides.jobs/curriculum
+Quando preencho todos os campos de informações de contato e os campos:
+
+E preencho com o link, caso tenha, das respectivas redes sociais:
+ 
+Linkedin
+Youtube
+Instagram
+Facebook
+Twitter
+Skype
+
+Então clico no botão Salvar dados para ir para próxima etapa
+
+
+[CT03.4] Cadastro -- Endereço --
+
+Pré-requisitos: Ter executado o CT-03 e seu(s) pré-requisito(s).
+
+Dado que fui direcionado para a página https://solides.jobs/curriculum
+Quando preencho todos os campos de informações de contato e os campos:
+
+E scroller a página até o Endereço
+E seleciono o País
+E preencho Cep
+  Logradouro
+  Número
+  Complemento
+  Bairro	
+  Estado
+  Cidade
+E scroller a página até o Documentos
+E valido visualmente o CPF que virá préviamente preenchido.
+E preencho, caso tenha, os seguintes campos:
+RG
+CNH
+Categoria da CNH
+Data emissão da CNH
+Data primeira habilitação
+Estado emissão da CNH
+Título de eleitor
+Zona eleitoral
+Seção eleitoral
+PIS
+CTPS NUM
+CTPS série
+Reservista
+
+Então clico no botão Salvar dados para ir para próxima etapa
+
+[CT03.5] - Cadastro -- Formação --
+
+Pré-requisitos: Ter executado o CT-03 e seu(s) pré-requisito(s).
+
+Dado que fui direcionado para a página https://solides.jobs/curriculum
+Quando preencho todos os campos de informações de contato e os campos:
+
+E preencho  o Curso 
+E  preencho a Instituição
+E  selecionar o Nível escolar
+Quando estiver cursando ou finalizado seleciono no De o mês que começou o curso 
+E seleciono o ano 
+E seleciono o Estou cursando no momento 
+Quando finalizo o curso seleciono na caixa de seleção o Mês
+E seleciono o Ano de término
+E preencho a Descrição
+Então clico no botão Salvar dados para ir para próxima etapa
+
+[CT03.6] - Cadastrar Experiência
+
+Pré-requisitos: Ter executado o CT-03 e seu(s) pré-requisito(s).
+
+Dado que fui direcionado para a página https://solides.jobs/curriculum
+Quando preencho todos os campos de informações de contato e os campos:
+
+E  preencho o Cargo
+E  preencho o Empresa
+Quando estou empregado ou desempregado seleciono no De o mês que começou no emprego
+E seleciono o ano 
+E seleciono o Estou é meu cargo atual 
+Quando estiver desempregado seleciono na caixa de seleção o Mês
+E seleciono o Ano que finalizou o contrato
+E preencho a Descrição
+Então clico no botão Salvar dados para ir para próxima etapa
+
+[CT03.7] - Cadastrar Idiomas
+
+Pré-requisitos: Ter executado o CT-03 e seu(s) pré-requisito(s).
+
+Dado que fui direcionado para a página https://solides.jobs/curriculum
+Quando preencho todos os campos de informações de contato e os campos:
+
+E seleciono um  Idioma 
+E seleciono o Nível
+Então clico no botão Salvar dados para ir para próxima etapa
+
+[CT03.8] - Cadastrar Habilidades
+
+Pré-requisitos: Ter executado o CT-03 e seu(s) pré-requisito(s).
+
+Dado que fui direcionado para a página https://solides.jobs/curriculum
+Quando preencho todos os campos de informações de contato e os campos:
+
+E seleciono uma  Habilidade
+E seleciono o Nível
+Então clico no botão Salvar dados para ir para próxima etapa
+
